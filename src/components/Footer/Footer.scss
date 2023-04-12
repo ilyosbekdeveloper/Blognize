@@ -1,0 +1,86 @@
+.blognize{
+    width: 160px;
+
+}
+.par3{
+    width: 360px !important;
+    font-size: 16px;
+    color: var(--icon-color);
+    padding-top: 15px;
+}
+.tarif{
+    width: 300px;
+    color: var(--icon-color);
+}
+
+.navigation{
+    color: var(--h1-color);
+    font-size: 21px;
+}
+
+.navigationUl{
+    ul{
+        li{
+            padding: 3.4px 0;
+            a{
+                color: var(--icon-color) !important;
+                font-size: 14px !important;
+                &:hover{
+                    color: #0533ff !important;
+                }
+            }
+        }
+    }
+}
+
+.navigationUl2{
+    ul{
+        li{
+            padding: 3.4px 0;
+            a{
+                color: var(--icon-color) !important;
+                font-size: 14px !important;
+                &:hover{
+                    color: #0533ff !important;
+                }
+            }
+        }
+    }
+}
+
+.ulSpan{
+    color: #fff;
+    background: red;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 10px;
+}
+.browse{
+    color: var(--h1-color);
+    font-size: 21px;
+}
+
+.btng{
+    button{
+        margin: 3px;
+    }
+}
+
+.socialIcon{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    &:hover .iconDescription{
+        color: #0533ff;
+    }
+}
+
+.iconSection{
+    img{
+        width: 15px;
+    }
+}
+.iconDescription{
+    color: var(--icon-color);
+    cursor: pointer;
+}

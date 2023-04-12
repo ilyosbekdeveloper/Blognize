@@ -1,0 +1,269 @@
+.Plans{
+    padding: 0;
+
+    .plansTitle{
+        .plansIcon{
+            color: var(--icon-color);
+            font-size: 24px;
+        }
+        span{
+            color: var(--h1-color);
+            font-size: 28px;
+            font-weight: bold;
+        }
+        p{
+            color: var(--icon-color);
+            display: block !important;
+            font-size: 14px;
+        }
+    }
+
+    .plansCol7Img{
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.userSelect{
+    user-select: none;
+    transition: 2s ease !important;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+    transform: scale(1.1);
+    }
+}
+.PlansBtnSection{
+    cursor: pointer;
+    // position: absolute;
+
+    .plansBtn1{
+        color: #fff;
+        background: #005eff;
+        border: none;
+        border-radius: 3px;
+        padding: 1px 6px;
+        text-align: right;
+        
+        span:first-child{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #ffffff;
+            display: inline-block;
+            padding-left: 4px;
+        }
+
+        span:last-child{
+            padding-left: 8px;
+            font-size: 12px;
+        }
+    }
+    .plansBtn2{
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        background: #000000;
+        border: none;
+        border-radius: 3px;
+        padding: 1px 6px;
+        text-align: right;
+
+        span:last-child{
+            padding-left: 8px;
+            font-size: 12px;
+        }
+    }
+}
+
+.PlansTitle{
+    padding-top: 10px;
+    h3{
+        color: #fff;
+        font-size: 30px;
+        width: 370px;
+        letter-spacing: 1.2px;
+        word-spacing: 2px;
+        cursor: pointer;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background: #ffffff;
+            bottom: 0;
+            left: 0;
+            transition: .2s;
+            transition-delay: .2s;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background: #ffffff;
+            bottom: 34px;
+            left: 0;
+            transition: .2s;
+        }
+    }
+}
+.plansCol7Img:hover .plansTitlesWrapper .PlansTitle h3::after,
+.plansCol7Img:hover .plansTitlesWrapper .PlansTitle h3::before
+{
+    width: 100%;
+}
+
+.carolyn{
+    .carolynImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    span, small{
+        color: #ffffff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
+
+.plansTitlesWrapper{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.lifeBtn{
+    font-size: 14px;
+    padding: 1px 10px;
+    position: relative;
+    padding-left: 22px;
+    // background: #ff0000;
+    display: inline-block;
+    border-radius: 5px;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        // background: #000;
+        border-radius: 50%;
+        top: 5px;
+        left: 3px;
+    }
+}
+
+.lifeBtn1{
+    background: #ff3c3c34;
+    color: #f81c1c;
+    &::after{
+        background: #f81c1c;
+    }
+}
+.lifeTitle{
+    padding-top: 10px;
+    width: 90%;
+    h4{
+        font-size: 16px;
+        font-weight: bold;
+        color: var(--h1-color);
+        line-height: 25px;
+    }
+}
+
+.customComment{
+    display: flex;
+    align-items: center;
+
+    .customCommentImg{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .byPersons{
+        display: flex;
+        align-items: center;
+    }
+
+    .pt{
+        font-size: 14px;
+        color: #005eff;
+        background: #0080ff39;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    
+    .who{
+        font-size: 14px;
+        color: var(--icon-color);
+        padding: 0 15px;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: var(--icon-color);
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                width: 0%;
+                background: var(--icon-color);
+                height: 1px;
+                bottom: 0;
+                left: 0;
+                transition: .2s;
+            }
+            &:hover::after{
+                width: 100%;
+            }
+        }
+    }
+    .customDate{
+        font-size: 14px;
+        color: var(--icon-color);
+        padding-left: 5px;
+    }
+}
+.custom-circle{
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--icon-color);
+        margin: 0 10px 0 5px;
+}
+.hotel
+{
+    height: 85%;
+}
+
+/////////////
+/// life btns
+.lifeBtn2{
+    background: #0080ff39;
+    color: #005eff;
+    &::after{
+        background: #005eff;
+    }
+}
+.logo{
+    width: 240px;
+}

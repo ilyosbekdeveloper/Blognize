@@ -1,0 +1,65 @@
+.support{
+    background: url(https://images4.alphacoders.com/762/76256.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 385px;
+    margin-top: 3rem;
+    border-radius: 10px;
+    text-align: center;
+
+    .supportTitle h1{
+        color: #fff;
+        font-size: 46px;
+        font-weight: bold;
+    }
+    p{
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .supportInp {
+        margin: .5rem auto;
+        
+        input{
+            min-height: calc(1.25em + 1.6rem + 2px);
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 0.2rem;
+            border: 1px solid transparent;
+            margin: 0 5px;
+
+            &:focus{
+                border-color: #0040ff;
+                outline: none;
+            }
+        }
+        button{
+            height: 51.5px;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 4px;
+            padding: 0 20px;
+        }
+    }
+    span{
+        color: #afafaf;
+        font-size: 15px;
+
+        a{
+            color: #afafaf;
+            font-size: 15px;
+            text-decoration: underline;
+        }
+    }
+
+    .supportSection{
+        padding: 6rem 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.gutter{
+    padding: 3rem 0 0rem 0;
+    border-bottom: 1px solid var(--icon-color);
+}

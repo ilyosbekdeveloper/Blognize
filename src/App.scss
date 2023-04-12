@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all .2s linear !important;
+    list-style-type: none;
+    text-decoration: none;
+}
+.App{
+    background: var(--app-bg);
+}
+.App.dark{
+    --app-bg: #191a1f;
+    --drowspan-bg: #0048ff;
+    --drwspan-div-color: #0048ff;
+    --visabledSectionUl-bg: #191a1f;
+    --visabledSapn-bg: #0048ff;
+    --liii-a-color: #0048ff;
+    --visabledSection-ul-li-a-color: #838383;
+
+    --pages-section-bg: #191a1f;
+    --descriptionStyles-p-color: #acacac;
+
+    --sapnn-span-hover-element: #acacac;
+
+    --dectitle-a-color: #777;
+    --dectitle-a-after-c: #777;
+
+    --bgg-bg: #222c3e;
+    --bgg-h6-c: #c2c2c2;
+    --bgg-h3: #e6e6e6;
+    // drop5
+    --drop5-h6-a: #bcbcbc;
+
+    // themes
+    --themes-bg: #fff;
+    --themes-item: #666;
+    --toggleTheme-icon: #ffffff;
+
+    --hover: #0048ff;
+    --header-link: #c3c3c3;
+    --dashboard: #c3c3c3;
+
+
+    ////////////////////////
+    //blog section vareibles
+    --icon-color: #ffffff;
+    --h1-color: #ffffff;
+    --span-color: #c5c3c3;
+
+    // ternding
+    --trending: #333333a7;
+}

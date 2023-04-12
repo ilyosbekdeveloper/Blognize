@@ -1,0 +1,49 @@
+.sponsored{
+    .sponsoredTitle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 15px;
+        margin-bottom: 1.2rem;
+        h3{
+            color: var(--h1-color);
+            font-weight: bold;
+            font-size: 28px;
+            margin: 0;
+            padding: 0;
+            padding-left: 8px;
+        }
+        .sponsorIcon{
+            color: var(--icon-color);
+            font-size: 28px;
+        }
+
+        .rightSponsor{
+            a{
+                color: var(--icon-color);
+                text-decoration: underline;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.f-32{
+    font-size: 21px !important;
+}
+.lifeBtn3{
+    background: #00ff4037;
+    color: #00ff48;
+
+    &::after{
+        background: #00ff48;
+    }
+}
+.lifeBtn4{
+    background: #eaff001d;
+    color: #dfe304;
+
+    &::after{
+        background: #dfe304;
+    }
+}
